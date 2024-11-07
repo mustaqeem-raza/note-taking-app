@@ -1,4 +1,3 @@
-Here’s a simplified and more concise version of the `README.md`:
 
 # Simple Note-Taking Application
 
