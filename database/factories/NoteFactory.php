@@ -17,7 +17,8 @@ class NoteFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'title' => implode(' ', $this->faker->words(rand(3, 5))),
+            'content' => $this->faker->paragraph(),
         ];
     }
 }
